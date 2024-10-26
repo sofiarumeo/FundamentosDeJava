@@ -60,23 +60,31 @@ public class RepasoFundamentosJava {
         
         Scanner leer = new Scanner(System.in);
         //Nombre
-        System.out.println("Ingrese su nombre: ");
-        String nombre = leer.nextLine();
+        //System.out.println("Ingrese su nombre: ");
+        //String nombre = leer.nextLine();
         
         
         //Edad
         
-        System.out.println("Ingrese su edad ");
-        int edadScanner = leer.nextInt();
+        //System.out.println("Ingrese su edad ");
+        //int edadScanner = leer.nextInt();
         
         
         //Email
-        System.out.println("Ingrese su email: ");
-        String email = leer.nextLine();
+        //System.out.println("Ingrese su email: ");
+        //String email = leer.nextLine();
         
         //System.out.printf("Mi edad es %d, y me llamo %s ", y mi correo es %s ", edadScanner, nombre, emailito);
         
-        
+        //CONDICIONALES
+        // SON CONDICIONES SI PASA X = ALGO SI NO = OTRA COSA
+        // IF, IF ELSE, ELSE
+        int numx = 1;
+        if (numx > 1) {
+            System.out.println("Es verdad");
+        } else {
+            System.out.println("Es mentira");
+        }
         
         
         

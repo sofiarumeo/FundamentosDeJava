@@ -18,32 +18,52 @@ public class RepasoFundamentosJava {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    
+        // Cadena de caracteres
+        String name;
+        
+        // Enteros
+        int num;
+        
+        // Flotantes - Reales
+        double real;
+        
+        // ASIGNAR VALORES A LAS VARIABLES
+        name = "Sofia";
+        num = 19;
+        real = 12.5;
+        
+        // MOSTRAR EN TERMINAL . sout+tabulador.
+        System.out.println("Mi nombre es: " + name);
+        System.out.println("Mi edad es " + num);
+        System.out.println("y cobro " + real + "Dolaruchos");
+        
+        
         // OPERACIONES ARITMETICOS +, -, *, /, %(resto
-        //int numa = 17;
-        //int numb  = 3;
-        //int nume = 14;
+        int numa = 17;
+        int numb  = 3;
+        int nume = 14;
     
-        //int suma = numa + numb;
+        int suma = numa + numb;
     
-        //sout(numa - nume);
-        //sout(numa + " + " + numb + " = " + suma);
-    
+        System.out.println("%%%%%%");
+        //System.out.println(numc % numb);
+     
+        //System.out.println(numa - numc);
+        System.out.println(numa + " + " + numb + " = " + suma);
+        
         //OPERADORES LOGICOS
         // AND - OR - NOT
     
         //OPERADORES RELACIONALES
         // < > == != ===
     
-        //sout("RELACIONALES")
-        // int numUnoRel = 2;
-        // int numDos Rel = 2;
-        // int numTresRel = 8;
-        // int numCuatroRel = 15;
-    
-    
-        // sout(numUnoRel == numTresRel && numCuatroRel==numTresRel);
+        System.out.println("RELACIONALES");
+        int numUnoRel = 2;
+        int numDosRel = 2;
+        int numTresRel = 8;
+        int numCuatroRel = 15;
         
+        System.out.println(numUnoRel == numDosRel || numCuatroRel==numTresRel);
         
         //OPERADORES DE INCREMENTO Y DECREMENTO
         // VAR++ VAR--
@@ -86,45 +106,30 @@ public class RepasoFundamentosJava {
             System.out.println("Es mentira");
         }
         
+        //BUCLES
+        // FOR 
+        // for(inicializacion; Condicion, Actualizacion)
         
+        for(int i = 1; i <= 10; ++i){
+            System.out.println("Numero: " + i);
+        }
         
-    
-    
-    
-    
-    
-    
-    
-    }   
+        // WHILE
+        // while(condicion)
         
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        int j =1;
+        while (j <= 10) {
+            System.out.println("WHILE Numero: " + j);
+            j++;
+        }
+        
             
-    
+         
+            
+            
+            
+     
+        
+    }
+           
 } 
